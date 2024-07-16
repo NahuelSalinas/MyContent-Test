@@ -32,11 +32,11 @@
       </div>
     <script>
         document.getElementById('newsletterForm').addEventListener('submit', function(event) {
-        event.preventDefault(); // Evita el comportamiento por defecto del formulario
+        event.preventDefault();
 
         const email = document.getElementById('email').value;
 
-        // Crear el objeto de datos
+        // Datos
         const data = {
             email: email
         };
